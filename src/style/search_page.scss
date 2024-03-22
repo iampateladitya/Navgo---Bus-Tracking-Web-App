@@ -1,0 +1,88 @@
+.search-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.search-page .search-bar{
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px 0.1px rgba(0, 0, 0, 0.248);
+}
+
+.search-bar .back{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s linear ;
+}
+.back:hover{
+    background-color: rgba(0, 0, 0, 0.119);
+}
+
+.search-bar input{
+    width: 90vw;
+    height: 40px;
+    font-size: 20px;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.recent-search-heading{
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+}
+.recent-search-heading h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.searches-list .bus1{
+    padding: 2rem;
+    width: 100%;
+    height: 8vh;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0.1px rgba(0, 0, 0, 0.189);
+}
+.bus1 .bus-logo{
+    width: 42px;
+    height: 9vh;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.bus1 .bus-no-route{
+    width: calc(100% - 42px);
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1.1em;
+}
+
+ .bus-no-route h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+ .bus-no-route p{
+    font-size: 16px;
+}
